@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yerassyl's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="greeting">Hello, I'm Yerassyl</h1>
+      <p class="headline">Software Engineering Student</p>
+      <p>I study at Astana IT University. I am learning web development.</p>
+      <button id="lightBtn">Light</button>
+      <button id="darkBtn">Dark</button>
+    </header>
+
+    <section>
+      <h2>Welcome to My Portfolio</h2>
+      <p>This is my jQuery practice website. Here are some things about me.</p>
+    </section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>I enjoy coding, playing games and learning new things.</p>
+      <p id="status">Currently learning jQuery!</p>
+      <ul id="facts">
+        <li>I am from Uralsk.</li>
+        <li>I study Software Engineering.</li>
+        <li>I like computer games.</li>
+      </ul>
+      <button id="hideBtn">Hide</button>
+      <button id="showBtn">Show</button>
+      <button id="toggleBtn">Toggle</button>
+    </section>
+
+    <section>
+      <h2>My Gallery</h2>
+      <div id="gallery">
+        <img src="images/coding.svg" alt="Coding illustration">
+        <img src="images/gaming.svg" alt="Gaming illustration">
+      </div>
+      <button id="fadeOutBtn">Fade Out</button>
+      <button id="fadeInBtn">Fade In</button>
+      <button id="fadeToggleBtn">Fade Toggle</button>
+    </section>
+
+    <section>
+      <h2>My Favorites</h2>
+      <h3 class="question" id="musicTitle">My Favorite Music</h3>
+      <p class="answer" id="musicAnswer">I enjoy listening to music in my free time.</p>
+      <h3 class="question" id="movieTitle">My Favorite Movie</h3>
+      <p class="answer" id="movieAnswer">I like science fiction and action movies.</p>
+      <h3 class="question" id="subjectTitle">My Favorite Subject</h3>
+      <p class="answer" id="subjectAnswer">I like Web Technologies because I can build websites.</p>
+    </section>
+
+    <section>
+      <h2>My Skills</h2>
+      <ul id="skillList">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+      </ul>
+      <input type="text" id="newSkill" placeholder="Enter a skill">
+      <button id="addBtn">Add Skill</button>
+      <button id="prependBtn">Prepend Skill</button>
+      <button id="removeBtn">Remove Skill</button>
+      <p id="skillMessage"></p>
+    </section>
+
+    <section>
+      <h2>My GitHub</h2>
+      <p><a id="socialLink" href="https://github.com/EROHA07" target="_blank" rel="noopener noreferrer">Open GitHub</a></p>
+      <button id="changeLinkBtn">Change Link</button>
+      <p id="linkInfo">Current link: GitHub</p>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" placeholder="Your name">
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" placeholder="Your email">
+      </form>
+      <p>Live name: <span id="liveName">-</span></p>
+      <p>Live email: <span id="liveEmail">-</span></p>
+    </section>
+
+    <section>
+      <h2>Skill Levels</h2>
+      <p>HTML</p>
+      <div class="bar"><div class="fill" data-width="75%"></div></div>
+      <p>CSS</p>
+      <div class="bar"><div class="fill" data-width="60%"></div></div>
+      <p>JavaScript</p>
+      <div class="bar"><div class="fill" data-width="40%"></div></div>
+      <button id="animateBtn">Animate My Skills</button>
+    </section>
+    <footer>Made by Yerassyl — Assignment 6</footer>
+  </div>
+</body>
+</html>
