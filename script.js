@@ -1,7 +1,7 @@
 $(document).ready(function () {
   console.log("jQuery is ready!");
 
-  // Task 1: selectors and CSS
+  
   $("#greeting").text("Hi! I'm Yerassyl"); // ID selector
   $(".headline").css("color", "#316c9e"); // class selector
   $("h2").css("border-bottom", "1px solid #ddd"); // tag selector
@@ -13,7 +13,7 @@ $(document).ready(function () {
     $("body").removeClass("dark");
   });
 
-  // Task 2: show, hide, toggle
+  
   $("#hideBtn").click(function () {
     $("#status, #facts").hide();
   });
@@ -24,7 +24,7 @@ $(document).ready(function () {
     $("#status, #facts").toggle();
   });
 
-  // Task 3: fade effects
+  
   $("#fadeOutBtn").click(function () {
     $("#gallery img").fadeOut();
   });
@@ -35,7 +35,7 @@ $(document).ready(function () {
     $("#gallery img").fadeToggle();
   });
 
-  // Task 4: slide effects
+ 
   $("#musicTitle").click(function () {
     $("#musicAnswer").slideToggle();
   });
@@ -46,7 +46,7 @@ $(document).ready(function () {
     $("#subjectAnswer").slideDown();
   });
 
-  // Task 5: add and remove skills
+  
   $("#addBtn").click(function () {
     var skill = $("#newSkill").val().trim();
     if (skill === "") {
@@ -71,7 +71,7 @@ $(document).ready(function () {
     $("#skillList li:last").remove();
   });
 
-  // Task 6: change link with attr
+  
   var github = true;
   $("#changeLinkBtn").click(function () {
     if (github) {
@@ -86,7 +86,7 @@ $(document).ready(function () {
     github = !github;
   });
 
-  // Task 7: live form text
+  
   $("#nameInput").on("input", function () {
     $("#liveName").text($(this).val() || "-");
   });
@@ -94,7 +94,7 @@ $(document).ready(function () {
     $("#liveEmail").text($(this).val() || "-");
   });
 
-  // Task 8: animate skill bars
+  
   var opened = false;
   $("#animateBtn").click(function () {
     $(".fill").each(function () {
