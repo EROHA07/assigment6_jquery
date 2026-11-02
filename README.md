@@ -41,21 +41,6 @@ I added three skill bars. The `animate()` method changes their width when I clic
 
 Screenshots for Tasks 0-8 are stored separately in the `screenshots` folder.
 
-## How to run
-
-1. Download the project.
-2. Open `index.html` in a browser (or with Live Server in VS Code).
-3. Check that the buttons and animations work.
-
-An internet connection is needed to load jQuery from the CDN.
-
-## Project files
-
-- `index.html` - HTML structure
-- `style.css` - page design
-- `script.js` - jQuery code
-- `images/` - website pictures
-- `screenshots/` - task screenshots
 
 ## Summary
 
